@@ -1,5 +1,5 @@
 // your code 
-// require the coins array
+const coins = require("./coins")
 
 function coinCollector(coins) {
   const onlyCoins = [];
@@ -23,4 +23,4 @@ function coinCollector(coins) {
 coinCollector(coins);
 
 // your code
-// export the coinCollector function
+module.exports = coinCollector;
